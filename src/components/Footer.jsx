@@ -33,7 +33,7 @@ const Footer = () => {
           <NavLink to={"/"}>
             <Box display={"flex"} gap={"0.5rem"}>
               <Image
-                src="https://res.cloudinary.com/dizoqzvu3/image/upload/v1719557484/tuscphdq3pohqtmkmkny.png"
+                src="https://res.cloudinary.com/dizoqzvu3/image/upload/v1719558613/u43qrsxzoyol2ppgwfzn.png"
                 h={"2rem"}
                 w={"2rem"}
               />
