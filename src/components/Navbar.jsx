@@ -61,6 +61,13 @@ const Navbar = () => {
             </Text>
           </Link>
         </Box>
+        <Box fontWeight={"600"}>
+          <a href="/apk/bytebuddy.apk" download={"bytebuddy.apk"}>
+            <Text _hover={{ color: "#4793E0" }} transition={"0.3s all"}>
+              Download
+            </Text>
+          </a>
+        </Box>
       </Box>
     </Box>
   );
