@@ -16,7 +16,13 @@ const About = () => {
       {/* About page content */}
       <Box pl={"8rem"} pr={"8rem"} pt={"5rem"} pb={"5rem"}>
         <Box fontSize={"1.1rem"}>
-          <Text fontSize={"2.2rem"} fontWeight={"600"}>
+          <Text
+            fontSize={"2.2rem"}
+            fontWeight={"600"}
+            onClick={() => {
+              plausible("About_Us_Clicked", { props: { feature: "Example" } });
+            }}
+          >
             About Us
           </Text>
           <Box display={"flex"} flexDir={"column"} gap={"2rem"}>
