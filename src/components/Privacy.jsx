@@ -21,7 +21,15 @@ const Privacy = () => {
           flexDir={"column"}
           gap={"1rem"}
         >
-          <Text fontSize={"2.2rem"} fontWeight={"600"}>
+          <Text
+            fontSize={"2.2rem"}
+            fontWeight={"600"}
+            onClick={() => {
+              plausible("Privacy_Policy", {
+                props: { feature: "Privacy Policy Clicked" },
+              });
+            }}
+          >
             Privacy Policy
           </Text>
           <Box>
@@ -137,7 +145,7 @@ const Privacy = () => {
               </Text>
             </Box>
           </Box>
-          <Text pt={'1.5rem'}>
+          <Text pt={"1.5rem"}>
             If you have any questions or concerns about this Privacy Policy,
             please contact us at{" "}
             <Link href="mailto:amitkamat918@gmail.com" isExternal>
