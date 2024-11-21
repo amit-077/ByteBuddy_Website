@@ -20,7 +20,9 @@ const About = () => {
             fontSize={"2.2rem"}
             fontWeight={"600"}
             onClick={() => {
-              plausible("About_Us_Clicked", { props: { feature: "Example" } });
+              plausible("About_Us_Clicked", {
+                props: { feature: "About_us_clicked" },
+              });
             }}
           >
             About Us
